@@ -1,5 +1,5 @@
 #main-nav {
-    background-color: #390281;
+    background-color: #E09DFF;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   }
 
@@ -38,7 +38,7 @@
 }
 
 #stored-posts a:hover {
-  background-color: #9cf790;
+  background-color: #c6ffbe;
 }
 #stored-posts a:focus{
  background-color: #aa41aa;
