@@ -3,7 +3,7 @@ body {
   }
   
   #main-nav {
-    background-color: #E09DFF;
+    background: linear-gradient(45deg, #509cff50, #ec347181, pink); 
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   }
   
@@ -13,7 +13,6 @@ body {
     width: 90%;
     max-width: 90rem;
     border-radius: 16px;
-    /* background-color: #5706c0; */
     background: linear-gradient(45deg, lightblue, rgba(4, 4, 236, 0.753));
     position: relative;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
@@ -118,7 +117,8 @@ body {
   .btn {
     font: inherit;
     position: absolute;
-    right: 0;
+    right: 1rem;
+    margin-top: -1.5rem;
 
     text-align: center;
     border: none;

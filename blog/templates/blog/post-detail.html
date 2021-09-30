@@ -27,7 +27,7 @@
         {% endfor %}
     </div>
 <div id="read-later">
-    <form action="{% url 'read-later' %}" method="POST">            {% comment %} <form action=" {% url 'read-later' %} "> {% endcomment %}
+    <form action="{% url 'read-later' %}" method="POST">
     {% csrf_token %}
     <input type="hidden" value={{ post.id }} name="post_id">
     <button class = "read-btn">
@@ -76,9 +76,9 @@
             {{form_fields.errors}}
         </div>
         {% endfor %}
-        <div>
-        <button class="btn">Send Comment🥰</button>
-        
+        <div class="form-control">
+        <button class="btn">Send Comment</button>
+        </div>
     </form>
 </section>
 {% endblock %}

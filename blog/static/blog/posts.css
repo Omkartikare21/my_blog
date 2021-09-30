@@ -6,12 +6,6 @@
     margin: -6rem auto 2rem auto;
     box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
   }
-  
-/* #latest-post article:hover {
-  transition: 0.5s;
-  background-color: #e9a0ff;
-  border-radius: 10px;
-}    this hides the pink bar on the main index page(around the latest post)*/ 
 
   #latest-post h2 {
     text-align: center;
@@ -74,7 +68,7 @@
   .post a:hover,
   .post a:active {
     transform: scale(1.1);
-    background-color: #bf91fc;
+    background-color: #d0adff;
     color: white;
     border-radius: 11px;
   }

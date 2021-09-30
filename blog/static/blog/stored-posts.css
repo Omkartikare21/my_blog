@@ -1,5 +1,5 @@
 #main-nav {
-    background-color: #E09DFF;
+    background: linear-gradient(45deg, #509cff50, #ec347181, pink); 
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   }
 

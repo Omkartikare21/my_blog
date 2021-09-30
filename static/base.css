@@ -41,7 +41,7 @@ h3 {
 
 #main-nav a:hover,
 #main-nav a:active {
-  color: #cf79f1;
+  color: red;
 }
 
 #main-nav h1 a:hover,
